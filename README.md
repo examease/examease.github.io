@@ -1,8 +1,3 @@
-<div align="center">
-  <img src="./images/note.png"></img>
-</div>
-
-
 # Examease
 
 Examease is a web-based platform designed for conducting exams online. It provides a user-friendly interface for both exam takers and administrators, facilitating the entire process from exam creation to result management.
@@ -37,7 +32,7 @@ That's it! Examease doesn't require any additional installations or dependencies
 2. **Administrator View**:
    - Login as an administrator.
    - Create new exams with questions.
-   - Monitor live exams and view results.
+   - View Analytics and Results.
 
 
 
