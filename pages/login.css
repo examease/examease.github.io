@@ -1,11 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 .do-you-know,.form{
     display: inline-block;
-}
-
-@media only screen and (max-width:700px) {
-    .do-you-know,.form{
-        display: block;
-    }
 }
 
 .do-you-know{
@@ -67,4 +63,33 @@ input[type="submit"]{
 .form a p{
     text-align: right;
     margin-bottom: -3px;
+}
+
+
+@media only screen and (max-width: 870px) {
+    .do-you-know, .form {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form{
+        width: 80%;
+    }
+
+    .do-you-know {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .do-you-know > img{
+        width: 50vw;
+        height: 50vw;
+        margin-top: 0;
+        margin-right: 45vw;
+    }
+
+    p{
+        margin-top: 2vw;
+    }
 }

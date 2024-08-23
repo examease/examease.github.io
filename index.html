@@ -7,14 +7,14 @@
     <link rel="icon" href="./images/icon.png">
     <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="./styles.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-    </style>
 </head>
 <body>
 
     <div class="navbar">
-        <img id="navbar-logo" src="./images/logo.png">
+        <div class="expanded-icons">
+            <img id="navbar-logo" src="./images/logo.png">
+            <img src="./images/menuIcon.png" id="menu-icon">
+        </div>
         <span><a href="./index.html">Home</a></span>
         <span><a href="./pages/contact-us.html">Contact Us</a></span>
         <span><a href="./pages/pricing.html">Pricing</a></span>
@@ -33,9 +33,11 @@
             <p id="sign-up-link"><a href="./pages/sign-up.html">Create account ➡️</a></p>
         </div>
 
-        <img src="./images/exam.jpg" style="height: 500px;width: 500px;border-radius: 20px;">
+        <img src="./images/exam.jpg">
         
     </div>
-    
+
+    <script src="./navbar.js"></script>    
+
 </body>
 </html>

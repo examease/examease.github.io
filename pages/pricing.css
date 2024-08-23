@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 body{
     background-image: url(../images/pricing.jpg);
     background-repeat: no-repeat;
@@ -5,30 +7,32 @@ body{
 }
 
 .transparent{
-    width:600px;
-    height:300px;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: 80px;
+    position: relative;
+    width:60vw;
+    height:30vw;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 60px;
     border-radius: 30px;
     background-color: rgba(185, 185, 185, 0.68);
 }
 
 .foreground{
-    padding-left: 250px;
     position: absolute;
-    width:400px;
-    height:200px;
-    border-radius: 30px;
-    top: 50%; /* Position from the top */
-    left: 50%; /* Position from the left */
-    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    width: 100%;
+    text-align: center;
+    margin-top: 5vw;
 }
 
 .foreground p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: bolder;
-    margin-right:400px;
     color:#153E7E;
+}
+
+
+#gif{
+    width: 10vw;
+    height: 10vw;
 }

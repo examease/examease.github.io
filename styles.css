@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 .main{
     display: flex;
     align-content: center;
@@ -5,11 +7,8 @@
 }
 
 @media only screen and (max-width:700px) {
-    .main{
-        flex-direction: column;
-    }
-    .info-section{
-        width: 100%;
+    img{
+        margin-top: 60px;
     }
 }
 
@@ -17,6 +16,7 @@
     margin-top: 50px;
     text-align: center;
     h1:after{
+        z-index: -1;
         content: "";
         display: block;
         width: 290px;
@@ -32,7 +32,7 @@
 }
 
 #dont-have-acc{
-    margin-top: 150px;
+    margin-top: 15vw;
 }
 
 #dont-have-acc,#sign-up-link{
@@ -42,4 +42,11 @@
 #sign-up-link a:link,a:visited{
     text-decoration: underline;
     text-underline-offset: 5px;
+}
+
+img{
+    display: block;
+    height: 50vw;
+    width: 50vw;
+    border-radius: 20px;
 }
