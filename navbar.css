@@ -57,11 +57,22 @@ a:link,a:visited{
 }
 
 #menu-icon{
+    cursor: pointer;
     background-color: grey;
     height: 23px;
     width: 23px;
     border-radius: 2px;
     display:none;
+}
+
+.navbar.expanded{
+    flex-direction: column;
+}
+
+.expanded-icons{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 @media only screen and (max-width:700px) {
@@ -71,12 +82,8 @@ a:link,a:visited{
         margin: 0 auto;
     }
 
-    .navbar > span{
-        display: none;
-    }
-
     .navbar{
-        flex-direction: row;
+        /* flex-direction: row; */
         width: 92vw;
         padding-bottom: 5px;
     }
@@ -84,6 +91,11 @@ a:link,a:visited{
     #navbar-logo{
         width:10vw;
         margin-top: 0;
+    }
+
+    .navbar > span{
+        margin-bottom: 4px;
+        display: none;
     }
 
     title{
@@ -96,16 +108,17 @@ a:link,a:visited{
     }
 
     .expanded-icons{
+        flex-direction: row;
         width: 100%;
     }
 }
 
-.navbar.expanded{
-    flex-direction: column;
-}
-
-.expanded-icons{
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+@media only screen and (min-width:701px){
+    .navbar{
+        display: flex;
+        flex-direction: row !important;
+    }
+    .navbar > span{
+        display: block !important;
+    }
 }

@@ -24,9 +24,7 @@ menuIcon.addEventListener('click', ()=>{
     navbar.classList.add('expanded');
     spans.forEach(span =>{
       span.style.display = 'block';
-      span.style.marginBottom = '4px';
     });
-  
   }
 
 });
